@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Name/Logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bookshelf">
+
+        <section id="home" class="shelf">
+            <h5>Home</h5>
+            <p>
+                I'm baby master cleanse forage air plant echo park, adaptogen tofu roof party health goth narwhal wolf
+                farm-to-table listicle cardigan bespoke.
+            </p>
+        </section>
+
+        <section id="about" class="shelf">
+            <h5>About</h5>
+            <p>
+                I'm baby master cleanse forage air plant echo park, adaptogen tofu roof party health goth narwhal wolf
+                farm-to-table listicle cardigan bespoke.
+            </p>
+        </section>
+
+        <section id="portfolio" class="shelf">
+            <h5>Portfolio</h5>
+            <p>
+                I'm baby master cleanse forage air plant echo park, adaptogen tofu roof party health goth narwhal wolf
+                farm-to-table listicle cardigan bespoke.
+            </p>
+        </section>
+
+        <section id="contact" class="shelf">
+            <h5>Contact</h5>
+            <form>
+               <div>
+                    <label for="user-name">Your name:</label>
+                    <input id="user-name" type="text" name="name">
+                </div>
+                <div>
+                    <label for="loacation">Zipcode:</label>
+                    <input id="location" type="text" name="zipcode" autofocus="on" maxlength="5" required>
+                </div>
+                <h2>Favorite Color</h2>
+                <div>
+                    <input name="color" type="radio" value="red">
+                    <label for="red">Red</label>
+                </div>
+                <div>
+                    <input name="color" type="radio" value="blue">
+                    <label for="blue">Blue</label>
+                </div>
+                <div>
+                    <input name="color" type="radio" value="white">
+                    <label for="white">White</label>
+                </div>
+                <h2>Choose your monster's features:</h2>
+                <div>
+                    <input name="horns" type="checkbox" id="horns">
+                    <label for="horns">Horns</label>
+                </div>
+                <div>
+                    <input name="scales" type="checkbox" id="scales">
+                    <label for="scales">Scales</label>
+                </div>
+                <div>
+                    <input name="wings" type="checkbox" id="wings">
+                    <label for="wings">Wings</label>
+                </div>
+
+                <label for="pwd">Password:</label>
+                <input id="pwd" type="password" name="pwd" minlength="8">
+
+                <label for="form-message">Your message:</label>
+               <textarea name="message" id="form-message"
+               placeholder="How can I help you?"></textarea>
+
+               <h2>Choose a font:</h2>
+               <select name="fonts" size="1" multiple>
+                   <option value="arial">Arial</option>
+                   <option value="times">Times New Roman</option>
+               </select>
+               <button type="reset">Reset</button>
+                <button type="submit" name="submit">Submit</button>
+                <fieldset>
+                    <legend>Shipping Information</legend>
+                    <div>
+                        <label for="shipppingName">Name:</label>
+                        <input id="shippingName" type="text" name="shipName">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
